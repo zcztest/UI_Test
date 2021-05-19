@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="Gb2312">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2021-04-20 22:53:49</p>
+                <p class='attribute'><strong>Duration: </strong>164.63 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 3, Pass: 2, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>test_login.TestLogin</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_1_login_success</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TimeoutException: Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\chengzhi.zou\Desktop\wenT_AutoTest\SeleniumWebdriverPO\BaseDriver\Base_Driver.py", line 23, in find
+    return WebDriverWait(self.webdriver, ELEMENT_TIMEOUT).until(
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\Users\chengzhi.zou\Desktop\wenT_AutoTest\SeleniumWebdriverPO\BaseDriver\Base_Driver.py", line 24, in <lambda>
+    lambda x: x.find_element(by=by, value=css_value))
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chengzhi.zou\Desktop\wenT_AutoTest\PingShan\SeleniumWebdriverPO\Test_Bussiness\test_login.py", line 25, in test_1_login_success
+    self.login.sub_login('gyppp@qq.com', '123456', '1111')
+  File "C:\Users\chengzhi.zou\Desktop\wenT_AutoTest\SeleniumWebdriverPO\Page\Page_Login.py", line 17, in sub_login
+    self.input(user, "[name='email']")
+  File "C:\Users\chengzhi.zou\Desktop\wenT_AutoTest\SeleniumWebdriverPO\BaseDriver\Base_Driver.py", line 39, in input
+    element = self.find(css_value, by=by)
+  File "C:\Users\chengzhi.zou\Desktop\wenT_AutoTest\SeleniumWebdriverPO\BaseDriver\Base_Driver.py", line 27, in find
+    self.webdriver.get_screenshot_as_file('./result/error_%s.png' % int(time.time()))
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\chengzhi.zou\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:53:59.578917] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:54:09.587218] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:54:09.621929] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:54:19.643627] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:54:19.644664] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:54:29.659674] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:54:29.659674] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:54:39.675538] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:54:39.676580] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:54:49.693605] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:54:49.693605] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:54:59.701887] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:54:59.701887] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:55:09.709501] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:55:09.710537] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:55:19.719892] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:55:19.719892] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:55:29.727518] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:55:29.727518] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-20 22:55:39.745762] [INFO] [Base_Driver.py] [get] [94] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+[2021-04-20 22:55:39.746753] [INFO] [Base_Driver.py] [find] [21] [name='email']
+[2021-04-20 22:55:49.754036] [ERROR] [Base_Driver.py] [find] [26] Message: timeout
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.19042 x86_64)
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_login_fail_1___gyppp_qq_com____1234____1111____用户名或者密码错误__</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_login_fail_2____qq_com____123456____1111____用户名或者密码错误__</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 3, Pass: 2, Error: 1 -- Duration: 164.63 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

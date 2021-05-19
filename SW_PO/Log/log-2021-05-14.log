@@ -1,0 +1,140 @@
+[2021-05-14 19:33:10.370265] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:33:12.948690] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:33:13.080832] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:33:13.145642] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:33:13.218457] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:33:15.938816] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:33:18.131158] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:33:18.787869] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:33:20.956152] [INFO] [Base_Driver.py] [find] [23] img[src='/static/images/finalbutton.gif]
+[2021-05-14 19:33:54.238603] [ERROR] [Base_Driver.py] [find] [28] Message: 
+
+[2021-05-14 19:34:08.022693] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:34:11.004225] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:34:11.161901] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:34:11.230779] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:34:11.295606] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:34:27.145534] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:34:30.686986] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:34:30.836366] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:34:30.897225] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:34:30.965279] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:34:31.133038] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:34:31.144009] [INFO] [Base_Driver.py] [is_element_exist] [58] [id='changeCode']
+[2021-05-14 19:34:31.153981] [INFO] [Base_Driver.py] [is_text_in_pagesource] [78] 没有找到用户名或者密码错误
+[2021-05-14 19:34:45.026471] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:34:48.475933] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:34:48.576557] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:34:48.653353] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:34:48.741117] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:34:51.207039] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:35:57.199804] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:36:00.436137] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:36:00.538861] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:36:00.603688] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:36:00.665523] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:36:03.603918] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:36:06.118492] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:36:06.726214] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:36:08.869005] [INFO] [Base_Driver.py] [find] [23] img[src='/static/images/finalbutton.gif]
+[2021-05-14 19:36:42.288123] [ERROR] [Base_Driver.py] [find] [28] Message: 
+
+[2021-05-14 19:43:07.315929] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:43:10.065884] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:43:10.170412] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:43:10.238693] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:43:10.305044] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:43:13.319445] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:43:15.483836] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:43:16.026654] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:43:18.151953] [INFO] [Base_Driver.py] [find] [23] img[src='/static/images/finalbutton.gif]
+[2021-05-14 19:45:06.369984] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:45:09.791469] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:45:09.888493] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:45:09.952322] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:45:10.015068] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:45:12.925410] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:45:15.433697] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:45:16.025866] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:45:18.145021] [INFO] [Base_Driver.py] [find] [23] img[src='/static/images/finalbutton.gif]
+[2021-05-14 19:45:50.017346] [ERROR] [Base_Driver.py] [find] [28] Message: 
+
+[2021-05-14 19:48:39.407632] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:48:42.609967] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:48:42.707419] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:48:42.767782] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:48:42.828840] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:48:46.285703] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:48:48.550480] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:48:49.087561] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:48:51.215343] [INFO] [Base_Driver.py] [find] [23] img[src='/static/images/finalbutton.gif]
+[2021-05-14 19:49:23.080665] [ERROR] [Base_Driver.py] [find] [28] Message: 
+
+[2021-05-14 19:54:09.482619] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:54:12.478638] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:54:12.566379] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:54:12.635222] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:54:12.711556] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:54:15.717663] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:54:18.004763] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:54:18.630034] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:54:20.715069] [INFO] [Base_Driver.py] [find] [23] input[id='addCart']
+[2021-05-14 19:54:26.836531] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/userInfo?tab=1
+[2021-05-14 19:54:29.471988] [INFO] [Base_Driver.py] [find] [23] [for='0899e158a29e11eba2ec00163e0cc54c']
+[2021-05-14 19:55:02.736085] [ERROR] [Base_Driver.py] [find] [28] Message: 
+
+[2021-05-14 19:58:13.645546] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:58:17.254698] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:58:17.412287] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:58:17.498058] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:58:17.563395] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:58:20.061411] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:58:22.224645] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:58:22.803793] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:58:24.937471] [INFO] [Base_Driver.py] [find] [23] input[id='addCart']
+[2021-05-14 19:58:31.081400] [INFO] [Base_Driver.py] [find] [23] label[for='all']
+[2021-05-14 19:59:40.078706] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 19:59:43.424008] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 19:59:43.539486] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 19:59:43.609035] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 19:59:43.673862] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 19:59:46.501140] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 19:59:48.704288] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 19:59:49.236264] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 19:59:51.393425] [INFO] [Base_Driver.py] [find] [23] input[id='addCart']
+[2021-05-14 19:59:57.579951] [INFO] [Base_Driver.py] [find] [23] [for='0899e158a29e11eba2ec00163e0cc54c']
+[2021-05-14 20:02:46.901764] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 20:02:49.876803] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 20:02:50.025494] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 20:02:50.122140] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 20:02:50.197936] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 20:02:53.740244] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 20:02:55.937693] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 20:02:56.500139] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 20:02:58.637808] [INFO] [Base_Driver.py] [find] [23] input[id='addCart']
+[2021-05-14 20:03:06.768232] [INFO] [Base_Driver.py] [find] [23] label[for='all']
+[2021-05-14 20:05:34.712113] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 20:05:38.044309] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 20:05:38.204505] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 20:05:38.267336] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 20:05:38.334157] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 20:05:41.343976] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 20:05:43.543706] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 20:05:44.118735] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 20:05:46.240114] [INFO] [Base_Driver.py] [find] [23] input[id='addCart']
+[2021-05-14 20:05:54.415912] [INFO] [Base_Driver.py] [find] [23] label[for='all']
+[2021-05-14 20:06:27.710213] [ERROR] [Base_Driver.py] [find] [28] Message: 
+
+[2021-05-14 20:08:44.290674] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/user/login
+[2021-05-14 20:08:47.877073] [INFO] [Base_Driver.py] [find] [23] [name='email']
+[2021-05-14 20:08:48.039839] [INFO] [Base_Driver.py] [find] [23] [name='password']
+[2021-05-14 20:08:48.108136] [INFO] [Base_Driver.py] [find] [23] [id='changeCode']
+[2021-05-14 20:08:48.172543] [INFO] [Base_Driver.py] [find] [23] [value='登 录']
+[2021-05-14 20:08:51.148827] [INFO] [Base_Driver.py] [get] [91] http://120.79.100.4:9013/
+[2021-05-14 20:08:53.644030] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [data-original]
+[2021-05-14 20:08:54.217423] [INFO] [Base_Driver.py] [find] [23] #newProduct li:nth-of-type(1) [type]
+[2021-05-14 20:08:56.413724] [INFO] [Base_Driver.py] [find] [23] input[id='addCart']
+[2021-05-14 20:09:02.602690] [INFO] [Base_Driver.py] [find] [23] span[class='cart_nums']
+[2021-05-14 20:09:07.355818] [INFO] [Base_Driver.py] [find] [23] label[for='all']
+[2021-05-14 20:09:07.464939] [INFO] [Base_Driver.py] [find] [23] .btn_sty
+[2021-05-14 20:09:09.557021] [INFO] [Base_Driver.py] [find] [23] [tabindex='1']

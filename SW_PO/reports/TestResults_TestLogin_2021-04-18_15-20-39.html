@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="gb2312">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2021-04-18 15:20:39</p>
+                <p class='attribute'><strong>Duration: </strong>33.73 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 5, Pass: 0, Fail: 1, Error: 1, Skip: 3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>test_login.TestLogin</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_1_login_success</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">AttributeError: 'NoneType' object has no attribute 'clear'</p><p style="color:maroon;">Traceback (most recent call last):
+  File "D:\PycharmProjects\PingShan\SeleniumWebdriverPO\Test_Bussiness\test_login.py", line 25, in test_1_login_success
+    self.login.sub_login('gyppp@qq.com', '123456', '1111')
+  File "D:\PycharmProjects\PingShan\SeleniumWebdriverPO\Page\Page_Login.py", line 17, in sub_login
+    self.input(user, "[name='email1']")
+  File "D:\PycharmProjects\PingShan\SeleniumWebdriverPO\BaseDriver\Base_Driver.py", line 40, in input
+    if isClear: element.clear()
+AttributeError: 'NoneType' object has no attribute 'clear'
+[2021-04-18 15:20:45.051670] [INFO] [Base_Driver.py] [get] [89] http://120.79.100.4:9013/user/login
+[2021-04-18 15:20:47.414805] [INFO] [Base_Driver.py] [find] [21] [name='email1']
+[2021-04-18 15:20:58.521441] [ERROR] [Base_Driver.py] [find] [26] Message: 
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='danger'>
+                            <td class="col-xs-10">test_haha</td>
+                            <td class="col-xs-1">
+                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>====用例执行失败===
+==============开始第0次重运行=============
+====用例执行失败===
+==============开始第1次重运行=============
+====用例执行失败===
+</p><p style="color:maroon;">AssertionError: 1 != 2</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\tenson\AppData\Roaming\Python\Python38\site-packages\unittestreport\core\reRun.py", line 41, in decorator
+    run_count(count, interval, func, *args, **kwargs)
+  File "C:\Users\tenson\AppData\Roaming\Python\Python38\site-packages\unittestreport\core\reRun.py", line 23, in run_count
+    raise e
+  File "C:\Users\tenson\AppData\Roaming\Python\Python38\site-packages\unittestreport\core\reRun.py", line 18, in run_count
+    func(*args, **kwargs)
+  File "D:\PycharmProjects\PingShan\SeleniumWebdriverPO\Test_Bussiness\test_login.py", line 44, in test_haha
+    self.assertEqual(1, 2)
+AssertionError: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\tenson\AppData\Roaming\Python\Python38\site-packages\unittestreport\core\reRun.py", line 18, in run_count
+    func(*args, **kwargs)
+  File "D:\PycharmProjects\PingShan\SeleniumWebdriverPO\Test_Bussiness\test_login.py", line 44, in test_haha
+    self.assertEqual(1, 2)
+  File "C:\Users\tenson\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\tenson\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\tenson\AppData\Roaming\Python\Python38\site-packages\unittestreport\core\reRun.py", line 18, in run_count
+    func(*args, **kwargs)
+  File "D:\PycharmProjects\PingShan\SeleniumWebdriverPO\Test_Bussiness\test_login.py", line 44, in test_haha
+    self.assertEqual(1, 2)
+  File "C:\Users\tenson\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\tenson\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+Traceback (most recent call last):
+  File "C:\Users\tenson\AppData\Roaming\Python\Python38\site-packages\unittestreport\core\reRun.py", line 18, in run_count
+    func(*args, **kwargs)
+  File "D:\PycharmProjects\PingShan\SeleniumWebdriverPO\Test_Bussiness\test_login.py", line 44, in test_haha
+    self.assertEqual(1, 2)
+  File "C:\Users\tenson\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\tenson\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+</p>
+                            </td>
+                        </tr>
+                        <tr class='info'>
+                            <td class="col-xs-10">test_login_3</td>
+                            <td class="col-xs-1">
+                                <span class="label label-info" style="display:block;width:40px;">Skip</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">暂时不执行</p>
+                            </td>
+                        </tr>
+                        <tr class='info'>
+                            <td class="col-xs-10">test_login_fail_1___gyppp_qq_com____1234____1111____用户名或者密码错误__</td>
+                            <td class="col-xs-1">
+                                <span class="label label-info" style="display:block;width:40px;">Skip</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">暂时不执行</p>
+                            </td>
+                        </tr>
+                        <tr class='info'>
+                            <td class="col-xs-10">test_login_fail_2____qq_com____123456____1111____用户名或者密码错误__</td>
+                            <td class="col-xs-1">
+                                <span class="label label-info" style="display:block;width:40px;">Skip</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">暂时不执行</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 5, Pass: 0, Fail: 1, Error: 1, Skip: 3 -- Duration: 33.73 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

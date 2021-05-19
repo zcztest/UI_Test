@@ -1,0 +1,5 @@
+log/*
+result/*
+report/*
+*.pyc
+data/download/*
