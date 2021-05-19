@@ -1,0 +1,2 @@
+# autoTest
+Just for fun
