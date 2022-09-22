@@ -1,0 +1,6 @@
+# yaml语法参考：https://www.jianshu.com/p/97222440cd08
+
+search:
+    url: https://www.baidu.com
+    kw: kw
+    su: su
